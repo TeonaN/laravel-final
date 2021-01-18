@@ -61,15 +61,12 @@
 
 
                             </div>
-{{--                                                             @if(Auth::user()->id  == $product->user_id)
- --}}
 
  <a href="{{ route('productscreate') }}" type="button" class="btn btn-primary">
                             პროდუქციის შექმნა</a>   
  @endguest
 
-{{--                              @endif
- --}}
+
                 </div>
             </div>
         </div>
